@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#last-update {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#log {
+  padding: 15px;
+}
+
+#log-entries {
+  list-style: none;
+  padding-left: 0;
+}
+
+#log-entries li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+}
